@@ -26,7 +26,8 @@
     "release": "release-it"
   },
   "dependencies": {
-    "@babel/core": "^7.7.7",
+      "babel-plugin-typescript-to-proptypes": "^1.1.0",
+  "@babel/core": "^7.7.7",
     "chalk": "^3.0.0",
     "cosmiconfig": "^6.0.0",
     "del": "^5.1.0",
