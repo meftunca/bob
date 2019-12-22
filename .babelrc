@@ -7,5 +7,5 @@
     }],
     "@babel/preset-typescript"
   ],
-  "plugins": ["@babel/plugin-proposal-optional-chaining"]
+  "plugins": [  ['babel-plugin-typescript-to-proptypes', {comments: false}],"@babel/plugin-proposal-optional-chaining"]
 }
